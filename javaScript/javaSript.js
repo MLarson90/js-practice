@@ -18,3 +18,7 @@ var sult = tempC(number3);
 alert("those numbers added = " + result);
 alert("those numbers subtracted = " +esult);
 alert(sult + " degrees fahrenheit");
+
+var str='Thanks for checking out my site!';
+var newStr= str.replace(/site/g, 'website');
+alert(newStr);
